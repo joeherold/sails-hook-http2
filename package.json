@@ -7,6 +7,10 @@
     "isHook": true,
     "hookName": "http2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeherold/sails-hook-http2.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
