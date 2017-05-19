@@ -1,0 +1,27 @@
+{
+  "name": "sails-hook-http2",
+  "version": "1.0.0",
+  "description": "enable HTTP/2 protocol to your sails 0.12.x application",
+  "main": "index.js",
+  "sails": {
+    "isHook": true,
+    "hookName": "http2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sails",
+    "http",
+    "http2",
+    "https",
+    "hook"
+  ],
+  "author": "Johannes Pichler <j.pichler@webpixels.at>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "spdy": "^3.4.4"
+  },
+  "devDependencies": {}
+}
